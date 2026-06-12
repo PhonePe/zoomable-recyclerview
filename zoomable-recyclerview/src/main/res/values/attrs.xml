@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ZoomableRecyclerView">
+        <!-- Minimum zoom level. Default: 1.0 (no zoom-out beyond natural size). -->
+        <attr name="zrv_minScale" format="float" />
+        <!-- Maximum zoom level reachable via pinch gesture. Default: 3.0 -->
+        <attr name="zrv_maxScale" format="float" />
+        <!-- Zoom level jumped to on a double-tap. Default: 2.0 -->
+        <attr name="zrv_doubleTapZoomScale" format="float" />
+        <!-- Duration of the double-tap zoom animation in milliseconds. Default: 300 -->
+        <attr name="zrv_zoomAnimationDuration" format="integer" />
+        <!-- Master switch. When false, all zoom and pan interactions are disabled. Default: true -->
+        <attr name="zrv_zoomEnabled" format="boolean" />
+        <!-- When false, double-tap-to-zoom is disabled (pinch still works). Default: true -->
+        <attr name="zrv_doubleTapZoomEnabled" format="boolean" />
+        <!-- When false, fling gestures while zoomed in are disabled. Default: true -->
+        <attr name="zrv_flingEnabled" format="boolean" />
+    </declare-styleable>
+</resources>
+
