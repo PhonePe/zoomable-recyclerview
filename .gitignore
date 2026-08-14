@@ -9,8 +9,5 @@ build/
 .cxx
 local.properties
 
-# IntelliJ / Android Studio
 .idea/
-!.idea/codeStyles/
-!.idea/runConfigurations/
 
