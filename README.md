@@ -114,9 +114,43 @@ recyclerView.isFlingEnabled = true
 
 ---
 
+## Sample App
+
+A working sample app is available in the [`sample`](./sample) module. To run it:
+
+1. Clone the repository
+2. Open the project in Android Studio
+3. Select the `sample` run configuration
+4. Run on a device or emulator
+
+---
+
 ## Requirements
 
-- **Min SDK:** 21 (Android 5.0+)
-- **Compile SDK:** 36
+| Requirement        | Version           |
+|-------------------|-------------------|
+| **Min SDK**       | 21 (Android 5.0+) |
+| **Compile SDK**   | 36                |
+| **Java**          | 11                |
+| **AGP**           | 9.2.1             |
+| **Gradle**        | 9.4.1             |
 
+---
 
+## License
+
+```
+Copyright 2024 PhonePe
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```

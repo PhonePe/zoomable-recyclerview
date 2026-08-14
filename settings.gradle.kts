@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Zoomable Recycler View"
 include(":zoomable-recyclerview")
+include(":sample")
