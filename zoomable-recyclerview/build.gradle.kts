@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.library)
+    id("maven-publish")
 }
 
 android {
@@ -28,4 +29,17 @@ android {
 
 dependencies {
     implementation(libs.androidx.recyclerview)
+}
+
+afterEvaluate {
+    configure<PublishingExtension> {
+        publications {
+            create<MavenPublication>("release") {
+                from(components["release"])
+                groupId = "com.github.PhonePe"
+                artifactId = "zoomable-recyclerview"
+                version = "1.0.0"
+            }
+        }
+    }
 }
