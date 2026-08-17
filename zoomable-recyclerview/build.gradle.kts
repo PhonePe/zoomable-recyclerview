@@ -41,7 +41,7 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
-                groupId = "com.github.PhonePe"
+                groupId = "com.phonepe"
                 artifactId = "zoomable-recyclerview"
                 version = "1.0.0"
             }
