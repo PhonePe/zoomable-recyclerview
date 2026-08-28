@@ -36,15 +36,13 @@ dependencies {
     implementation(libs.androidx.recyclerview)
 }
 afterEvaluate {
-    afterEvaluate {
-        configure<PublishingExtension> {
-            publications {
-                create<MavenPublication>("release") {
-                    from(components["release"])
-                    groupId = "com.github.PhonePe"
-                    artifactId = "zoomable-recyclerview"
-                    version = "1.0.0"
-                }
+    configure<PublishingExtension> {
+        publications {
+            create<MavenPublication>("release") {
+                from(components["release"])
+                groupId = "com.github.PhonePe"
+                artifactId = "zoomable-recyclerview"
+                version = "1.0.1"
             }
         }
     }
